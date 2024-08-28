@@ -1,0 +1,56 @@
+
+
+ul a
+{
+    text-decoration:none;
+    color:black ;
+    padding: 10px;
+    display: block;
+    position: relative;
+}
+
+a
+{
+    text-decoration:none;
+    color:black ;
+    padding: 10px;
+    display: block;
+    position: relative;
+}
+
+
+.navegacion ul a::after
+{
+    content: "";
+    background-color: darkgray;
+    position: absolute;
+    left: 0%;
+    top: calc(100% + 4px);
+    width: 100%;
+    height: 4px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.navegacion a:hover::after
+{
+    opacity: 0.8;
+}
+
+.compra
+{
+    color: brown;
+}
+.regresar
+{
+    color: brown;
+}
+h1
+{
+    font-family:sans-serif ;    
+}
+
+h2
+{
+    font-family:sans-serif ; 
+}
