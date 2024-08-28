@@ -1,4 +1,9 @@
 
+body
+{
+    background-color:mintcream;
+    font-family: "Montserrat", "sans-serif";
+}
 
 ul a
 {
@@ -47,10 +52,10 @@ a
 }
 h1
 {
-    font-family:sans-serif ;    
+    font-style: italic;    
 }
 
 h2
 {
-    font-family:sans-serif ; 
+    font-style: italic;
 }
